@@ -11,4 +11,4 @@ npx --package now@9 --call "now -e NODE_ENV=production --token $NOW_TOKEN --npm 
 
 # restore things (in case someone runs this locally by mistake)
 rm -rf server/other/shared
-npm install -S ../shared
+npm install --legacy-peer-deps -S ../shared

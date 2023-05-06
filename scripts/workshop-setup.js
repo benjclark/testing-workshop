@@ -2256,7 +2256,7 @@ function installDeps() {
   function spawnInstall(cwd) {
     return new Promise(function (resolve, reject) {
       console.log(`🔑  starting install in ${cwd}`);
-      var child = cp.spawn('npm', ['install'], {
+      var child = cp.spawn('npm', ['install --legacy-peer-deps'], {
         stdio: 'inherit',
         shell: true,
         cwd

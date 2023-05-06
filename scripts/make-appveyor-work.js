@@ -1,5 +1,5 @@
 const fs = require('fs')
-const pkg = require('../package.json')
+const pkg = require('../package')
 
 // See this for details: https://github.com/aredridel/node-bin-gen/issues/45
 delete pkg.devDependencies.node
