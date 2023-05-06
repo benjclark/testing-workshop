@@ -26,22 +26,24 @@ workshop repo to teach you about testing JavaScript applications.
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Topics covered](#topics-covered)
-- [Branches](#branches)
-- [System Requirements](#system-requirements)
-- [Setup](#setup)
-- [Running the app](#running-the-app)
-- [About the app](#about-the-app)
-  - [Continuous Integration](#continuous-integration)
-  - [Hosting](#hosting)
-  - [Register and Login](#register-and-login)
-- [Troubleshooting](#troubleshooting)
-- [Structure](#structure)
-- [Contributors](#contributors)
-- [LICENSE](#license)
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+* [Topics covered](#topics-covered)
+* [Branches](#branches)
+* [System Requirements](#system-requirements)
+* [Setup](#setup)
+* [Running the app](#running-the-app)
+* [About the app](#about-the-app)
+  * [Continuous Integration](#continuous-integration)
+  * [Hosting](#hosting)
+  * [Register and Login](#register-and-login)
+* [Troubleshooting](#troubleshooting)
+* [Structure](#structure)
+* [Contributors](#contributors)
+* [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -69,13 +71,13 @@ want to switch to the appropriate branch for this workshop. Otherwise the code
 you're looking at may not be exactly the same as the code used in the setting
 you're working with.
 
-- Frontend Masters 2017 [`fem`](https://github.com/kentcdodds/testing-workshop/tree/fem)
+* Frontend Masters 2017 [`fem`](https://github.com/kentcdodds/testing-workshop/tree/fem)
 
 ## System Requirements
 
-- [git][git] v2.14.1 or greater
-- [NodeJS][node] v8.9.4 or greater
-- [npm][npm] v5.6.0 or greater
+* [git][git] v2.14.1 or greater
+* [NodeJS][node] v8.9.4 or greater
+* [npm][npm] v5.6.0 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
 properly, you can run this:
@@ -144,8 +146,8 @@ generated).
 
 We're using two CI services:
 
-- [Travis][build] (Linux): find config in `.travis.yml`
-- [AppVeyor][win-build] (Windows): find config in `appveyor.yml`
+* [Travis][build] (Linux): find config in `.travis.yml`
+* [AppVeyor][win-build] (Windows): find config in `appveyor.yml`
 
 ### Hosting
 
@@ -183,16 +185,16 @@ individually yourself:
 node ./scripts/verify
 
 # install dependencies in the root of the repo
-npm install
+npm install --legacy-peer-deps
 
 # install dependencies in the shared directory
-npm install --prefix shared
+npm install --legacy-peer-deps --prefix shared
 
 # install dependencies in the server directory
-npm install --prefix server
+npm install --legacy-peer-deps --prefix server
 
 # install dependencies in the client directory
-npm install --prefix client
+npm install --legacy-peer-deps --prefix client
 
 # verify the project is ready to run
 npm run lint
@@ -268,6 +270,7 @@ able to leave you command line in the root directory for the whole workshop.
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
@@ -288,6 +291,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
