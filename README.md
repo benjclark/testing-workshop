@@ -1,4 +1,4 @@
-> **NOTICE**: Our employees have been trying to complete the https://frontendmasters.com/courses/testing-practices-principles/ course. However the supporting codebase was left in a boken state. I have fixed the codebase to allow my employees to do the course.
+> **NOTICE**: Our employees have been trying to complete the https://frontendmasters.com/courses/testing-practices-principles/ course. However the supporting codebase was left in a broken state. I have fixed the codebase to allow my employees to do the course.
 
 ***
 
